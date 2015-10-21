@@ -26,8 +26,8 @@ dependencies {
 }
 
 
-def siteUrl = 'https://github.com/openproject/LessCode'    // project homepage
-def gitUrl = 'https://github.com/openproject/LessCode.git' // project git
+def siteUrl = 'https://github.com/yieryi/tools'    // project homepage
+def gitUrl = 'https://github.com/yieryi/tools.git' // project git
 
 group = 'cn.isif.alibs'
 version = '1.0'
@@ -76,7 +76,7 @@ install {
         pom {
             project {
                 packaging 'aar'
-                name 'Less Code For Android'
+                name 'tools Code For Android'
                 url siteUrl
                 licenses {
                     license {
