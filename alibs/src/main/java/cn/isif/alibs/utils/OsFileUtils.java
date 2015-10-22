@@ -11,7 +11,7 @@ import cn.isif.alibs.utils.EncodingUtils;
 
 /**
  * android system file/directory option
- * <p/>
+ *
  * Created by zh on 15/7/5.
  */
 public class OsFileUtils {
@@ -42,7 +42,8 @@ public class OsFileUtils {
      * write file to /sdcard/
      *
      * @param fileName
-     * @return
+     * @param message
+     * @param append
      */
     public static void writeFileSdcard(String fileName, String message, boolean append) {
         FileOutputStream fout = null;

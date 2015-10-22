@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 /**
  * 字符串操作工具包
- * <p/>
+ *
  * Created by zh on 15/7/11.
  */
 

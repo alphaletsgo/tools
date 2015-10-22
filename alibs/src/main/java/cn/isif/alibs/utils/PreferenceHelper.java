@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 
 /**
  * Preference 读写封装
- * <p/>
+ *
  * Created by zh on 15/7/5.
  */
 public class PreferenceHelper {

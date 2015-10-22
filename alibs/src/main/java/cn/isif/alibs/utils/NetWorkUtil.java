@@ -12,7 +12,7 @@ import java.util.Enumeration;
 
 /**
  * os network tools
- * <p/>
+ *
  * by zh
  */
 public class NetWorkUtil {
@@ -80,7 +80,7 @@ public class NetWorkUtil {
                 }
             }
         } catch (SocketException ex) {
-            Log.e("WifiPreference IpAddress", ex.toString());
+//            Log.e("WifiPreference IpAddress", ex.toString());
         }
         return null;
     }

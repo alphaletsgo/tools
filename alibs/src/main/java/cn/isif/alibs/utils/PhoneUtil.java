@@ -3,7 +3,7 @@ package cn.isif.alibs.utils;
 
 /**
  * 获取手机信息
- * <p/>
+ *
  * Created by zhy on 2015/2/6.
  */
 public class PhoneUtil {
