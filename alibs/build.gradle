@@ -10,7 +10,7 @@ android {
         minSdkVersion 20
         targetSdkVersion 20
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
     }
     buildTypes {
         release {
@@ -30,7 +30,7 @@ def siteUrl = 'https://github.com/yieryi/tools'
 def gitUrl = 'https://github.com/yieryi/tools.git'
 
 group = 'cn.isif.alibs'
-version = '1.0'
+version = '1.0.1'
 
 //javadoc source
 task sourcesJar(type: Jar) {
