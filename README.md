@@ -8,6 +8,11 @@ Tools of android developer.
   > 
   > Modify sdk version
 
+  > ***2016 01-29 15:40 released version 1.0.3***
+  >
+  > optimize code
+  > new log function
+
 
 - **Android Permission**
   
@@ -21,14 +26,14 @@ Tools of android developer.
   
 - **NEW VERSION**
   
-  Version 1.0.2
+  Version 1.0.3
   
 - **USE**
 
   Android Sdk 8+
   
   ``` groovy
-  compile 'cn.isif.alibs:alibs:1.0.2'
+  compile 'cn.isif.alibs:alibs:1.0.3'
   ```
   
   

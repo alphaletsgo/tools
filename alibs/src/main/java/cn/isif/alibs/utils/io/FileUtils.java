@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.io;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -11,7 +11,14 @@ import java.nio.channels.FileChannel;
 import java.util.Collection;
 import java.util.LinkedList;
 
+import cn.isif.alibs.utils.IOUtils;
 
+/**
+ * util about file option
+ *
+ * author zh
+ *
+ */
 public class FileUtils {
     private static final char SYSTEM_SEPARATOR = File.separatorChar;
 

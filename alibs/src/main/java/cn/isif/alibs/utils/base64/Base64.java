@@ -4,7 +4,7 @@
  * author: shiqun.shi@alipay.com
  */
 
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.base64;
 
 /**
  * Base64 工具类

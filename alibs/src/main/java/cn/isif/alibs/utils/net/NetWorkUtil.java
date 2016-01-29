@@ -1,9 +1,8 @@
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.net;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.util.Log;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

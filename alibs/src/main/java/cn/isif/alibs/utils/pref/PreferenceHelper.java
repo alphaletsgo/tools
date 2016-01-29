@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.pref;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 8
         targetSdkVersion 17
-        versionCode 1
-        versionName "1.0.2"
+        versionCode 3
+        versionName "1.0.3"
     }
     buildTypes {
         release {
@@ -30,7 +30,7 @@ def siteUrl = 'https://github.com/yieryi/tools'
 def gitUrl = 'https://github.com/yieryi/tools.git'
 
 group = 'cn.isif.alibs'
-version = '1.0.2'
+version = '1.0.3'
 
 //javadoc source
 task sourcesJar(type: Jar) {

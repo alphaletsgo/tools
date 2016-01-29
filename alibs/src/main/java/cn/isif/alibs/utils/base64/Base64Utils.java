@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.base64;
 
 import java.io.UnsupportedEncodingException;
 

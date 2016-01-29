@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.md5;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

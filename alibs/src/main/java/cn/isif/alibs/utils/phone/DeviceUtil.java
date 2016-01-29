@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils;
+package cn.isif.alibs.utils.phone;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 /**
  * 获取设备的一些信息的类
  *
- * @author Nick create at 2011-3-18
+ * @author zh create at 2011-3-18
  */
 public class DeviceUtil {
 
