@@ -2,19 +2,20 @@
 
 Tools of android developer.
 
-- **ACTION**
+- **ARCHIVE**
   
   > ***2015 10-22 19:20 released version 1.0.2***
   > 
   > Modify sdk version
-
+  
   > ***2016 01-29 15:40 released version 1.0.3***
   >
-  > optimize code
+  > optimize code struct
+  >
   > new log function
 
 
-- **Android Permission**
+- **Need Android Permission**
   
   ``` xml
   <uses-permission android:name="android.permission.INTERNET" />
@@ -24,11 +25,11 @@ Tools of android developer.
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   ```
   
-- **NEW VERSION**
+- **Last Version**
   
   Version 1.0.3
   
-- **USE**
+- **How to used?**
 
   Android Sdk 8+
   
