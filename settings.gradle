@@ -1,1 +1,1 @@
-include ':alibs'
+include ':alibs', ':demo'

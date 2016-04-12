@@ -99,11 +99,7 @@ public class TimeUtil {
         long lt = time.getTime() / 86400000;
         long ct = cal.getTimeInMillis() / 86400000;
         int days = (int) (ct - lt);
-        String sb = "";
-        if (time.getHours() < 12)
-            sb = "上午";
-        else
-            sb = "下午";
+        String sb = time.getHours() < 12 ? "上午" : "下午";
         if (days == 0) {
             return sb + new SimpleDateFormat("HH:mm").format(time);
         } else if (days == 1) {
@@ -133,11 +129,7 @@ public class TimeUtil {
         long lt = time.getTime() / 86400000;
         long ct = cal.getTimeInMillis() / 86400000;
         int days = (int) (ct - lt);
-        String sb = "";
-        if (time.getHours() < 12)
-            sb = "上午";
-        else
-            sb = "下午";
+        String sb = time.getHours() < 12 ? "上午" : "下午";
         if (days == 0) {
             return sb + new SimpleDateFormat("HH:mm").format(time);
         } else if (days == 1) {

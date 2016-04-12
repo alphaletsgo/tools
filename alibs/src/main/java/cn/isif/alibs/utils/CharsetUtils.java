@@ -8,7 +8,9 @@ import java.util.List;
 
 import cn.isif.alibs.utils.log.ALog;
 
-
+/**
+ * 字符串处理类
+ */
 public class CharsetUtils {
 
     private CharsetUtils() {
