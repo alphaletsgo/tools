@@ -30,7 +30,7 @@ public class Base64Utils {
             41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1};
 
     /**
-     * 加密(base64)
+     * encode(base64)
      *
      * @param data
      * @return

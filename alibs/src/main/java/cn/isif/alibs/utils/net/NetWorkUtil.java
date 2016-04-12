@@ -16,7 +16,7 @@ import cn.isif.alibs.utils.log.ALog;
 
 /**
  * os network tools
- * <p/>
+ * <p>
  * by zh
  */
 public class NetWorkUtil {

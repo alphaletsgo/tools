@@ -11,7 +11,7 @@ import cn.isif.alibs.utils.EncodingUtils;
 
 /**
  * android system file/directory option
- *
+ * <p>
  * Created by zh on 15/7/5.
  */
 public class OsFileUtils {
@@ -89,7 +89,4 @@ public class OsFileUtils {
         }
         return result.toString().trim();
     }
-
-
-
 }

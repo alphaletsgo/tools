@@ -7,7 +7,7 @@
 package cn.isif.alibs.utils.base64;
 
 /**
- * Base64 工具类
+ * Base64
  * 
  */
 public final class Base64 {
