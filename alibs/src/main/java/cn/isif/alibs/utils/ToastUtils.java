@@ -21,12 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * <pre>
- *     author: Blankj
- *     blog  : http://blankj.com
- *     time  : 2016/09/29
- *     desc  : utils about toast
- * </pre>
+ * from https://github.com/Blankj/AndroidUtilCode.git
  */
 public final class ToastUtils {
 
