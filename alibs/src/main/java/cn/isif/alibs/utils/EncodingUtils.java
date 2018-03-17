@@ -37,6 +37,8 @@ import java.io.UnsupportedEncodingException;
  */
 public final class EncodingUtils {
 
+
+
     /**
      * Converts the byte array of HTTP content characters to a string. If
      * the specified charset is not supported, default system encoding

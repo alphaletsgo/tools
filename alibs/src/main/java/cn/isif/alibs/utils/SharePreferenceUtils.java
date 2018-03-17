@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils.pref;
+package cn.isif.alibs.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,8 +9,8 @@ import android.content.SharedPreferences;
  *
  * Created by zh on 15/7/5.
  */
-public class PreferenceHelper {
-    public PreferenceHelper() {
+public class SharePreferenceUtils {
+    public SharePreferenceUtils() {
     }
 
     public static void write(Context context, String fileName, String k, int v) {

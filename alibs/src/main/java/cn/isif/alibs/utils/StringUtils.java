@@ -15,6 +15,10 @@ public class StringUtils {
     private final static Pattern eMailer = Pattern.compile("\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*");
     private static StringBuilder sb = new StringBuilder();
 
+    private StringUtils(){
+        throw new UnsupportedOperationException("u can't instantiate me...");
+    }
+
     /**
      * 判断给定字符串是否空白串。
      * 空白串是指由空格、制表符、回车符、换行符组成的字符串

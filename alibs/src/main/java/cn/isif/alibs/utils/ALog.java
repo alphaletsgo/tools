@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils.log;
+package cn.isif.alibs.utils;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -65,7 +65,7 @@ public class ALog {
 
     public static void d(String content) {
         if (!allowD) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -77,7 +77,7 @@ public class ALog {
 
     public static void d(String content, Throwable tr) {
         if (!allowD) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -89,7 +89,7 @@ public class ALog {
 
     public static void e(String content) {
         if (!allowE) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -101,7 +101,7 @@ public class ALog {
 
     public static void e(String content, Throwable tr) {
         if (!allowE) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -113,7 +113,7 @@ public class ALog {
 
     public static void i(String content) {
         if (!allowI) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -125,7 +125,7 @@ public class ALog {
 
     public static void i(String content, Throwable tr) {
         if (!allowI) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -137,7 +137,7 @@ public class ALog {
 
     public static void v(String content) {
         if (!allowV) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -149,7 +149,7 @@ public class ALog {
 
     public static void v(String content, Throwable tr) {
         if (!allowV) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -161,7 +161,7 @@ public class ALog {
 
     public static void w(String content) {
         if (!allowW) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -173,7 +173,7 @@ public class ALog {
 
     public static void w(String content, Throwable tr) {
         if (!allowW) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -185,7 +185,7 @@ public class ALog {
 
     public static void w(Throwable tr) {
         if (!allowW) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -198,7 +198,7 @@ public class ALog {
 
     public static void wtf(String content) {
         if (!allowWtf) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -210,7 +210,7 @@ public class ALog {
 
     public static void wtf(String content, Throwable tr) {
         if (!allowWtf) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -222,7 +222,7 @@ public class ALog {
 
     public static void wtf(Throwable tr) {
         if (!allowWtf) return;
-        StackTraceElement caller = OtherUtils.getCallerStackTraceElement();
+        StackTraceElement caller = getCallerStackTraceElement();
         String tag = generateTag(caller);
 
         if (customLogger != null) {
@@ -230,6 +230,10 @@ public class ALog {
         } else {
             Log.wtf(tag, tr);
         }
+    }
+
+    private static StackTraceElement getCallerStackTraceElement() {
+        return Thread.currentThread().getStackTrace()[4];
     }
 
 }

@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * Created by zh on 15/10/19.
  */
-public class TimeUtil {
+public class CalendarUtils {
 
     private final static ThreadLocal<SimpleDateFormat> dateFormatStr = new ThreadLocal<SimpleDateFormat>() {
         @Override
@@ -23,6 +23,10 @@ public class TimeUtil {
             return new SimpleDateFormat("MM-dd");
         }
     };
+
+    private CalendarUtils(){
+        throw new UnsupportedOperationException("u can't instantiate me...");
+    }
 
     /**
      * 将字符串转位日期类型

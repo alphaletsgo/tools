@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils.md5;
+package cn.isif.alibs.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -8,7 +8,7 @@ import java.security.NoSuchAlgorithmException;
  * <p>
  * Created by zh on 15/7/11.
  */
-public class MD5Handler {
+public class MD5 {
 
     /**
      * 将一个字符窜使用MD5算法加密

@@ -1,18 +1,15 @@
-package cn.isif.alibs.utils.net;
+package cn.isif.alibs.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.telephony.TelephonyManager;
-import android.util.Log;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.text.DecimalFormat;
 import java.util.Enumeration;
-
-import cn.isif.alibs.utils.log.ALog;
 
 /**
  * os network tools
@@ -304,6 +301,20 @@ public class NetWorkUtil {
     public static boolean checkSimState(Context context) {
         TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
         return !(tm.getSimState() == TelephonyManager.SIM_STATE_ABSENT || tm.getSimState() == TelephonyManager.SIM_STATE_UNKNOWN);
+    }
+
+    static enum NetProvider {
+        UNKNOWN("未知网络"), UNICOM("联通"), MOBILE("移动"), TELECOM("电信");
+        private String type;
+
+        private NetProvider(String type) {
+            this.type = type;
+        }
+
+        @Override
+        public String toString() {
+            return type;
+        }
     }
 }
 

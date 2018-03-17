@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils.phone;
+package cn.isif.alibs.utils;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

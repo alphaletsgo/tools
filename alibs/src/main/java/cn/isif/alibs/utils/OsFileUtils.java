@@ -1,4 +1,4 @@
-package cn.isif.alibs.utils.io;
+package cn.isif.alibs.utils;
 
 import android.content.Context;
 
