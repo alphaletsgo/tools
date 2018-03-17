@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
-
+/*gradle使用命令
+第一步：gradlew.bat install
+第二步：gradlew.bat bintrayUpload
+*/
 
 android {
     compileSdkVersion compile_sdk_version
